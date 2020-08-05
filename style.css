@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  border-top: 5px solid rgba(25, 202, 134, 0.863);
+  max-height: 65px;
+  box-shadow: 0 0 6px 0 rgb(143, 155, 155);
+  
+}
+
+.logo{
+  font-size: 28px;
+  margin-top: 13px;
+}
+.meniu{
+  font-size: 18px;
+}
+img {
+  max-width: 25px;
+  max-height: 25px;
+  border-radius: 50%;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 15px;
+}
+ul{
+  display: flex;
+  list-style: none;
+}
+a{
+  color: black;
+ 
+  padding: 20px;
+  text-decoration: none;
+}
+
+
+a:hover {
+  color: white;
+  background-color: rgba(25, 202, 134, 0.863);
+}
+.phone {
+  display: flex;
+}
